@@ -1,0 +1,34 @@
+{
+  "name": "processo-seletivo-bmo",
+  "version": "1.0.0",
+  "description": "API usando Node.js, Postegres SQL, Express, ORM Sequelize, Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuel-abreu/Processo-Seletivo-BMO.git"
+  },
+  "keywords": [],
+  "author": "Emanuel de Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuel-abreu/Processo-Seletivo-BMO/issues"
+  },
+  "homepage": "https://github.com/emanuel-abreu/Processo-Seletivo-BMO#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.0",
+    "yup": "^1.1.1"
+  }
+}
